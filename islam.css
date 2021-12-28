@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand {
+    color: rgb(245, 245, 245) !important;
+    font-weight: 900;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(11, 49, 6), rgb(122, 115, 11));
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: rgb(245, 245, 245) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(to right, rgb(11, 49, 6), rgb(122, 115, 11));
+    padding: 0 !important;
+}
+
+.dropdown-item {
+    color: rgb(245, 245, 245) !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.card {
+    height: 420px
+}
+
+.btn-primary {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 350px;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.box h4 {
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(11, 49, 6), rgb(122, 115, 11));
+}
+
+.box h4 small {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, rgb(11, 49, 6), rgb(122, 115, 11));
+}
+
+.modal-header {
+    background-image: linear-gradient(to right, rgb(11, 49, 6), rgb(122, 115, 11));
+    color: white;
+}
+
+.breadcrumb li {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+
+article {
+    position: relative;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.img-resize {
+    position: relative;
+    width: 70rem;
+    height: 400px;
+}
+
+.float-end {
+    width: 400px;
+    height: 400px;
+}

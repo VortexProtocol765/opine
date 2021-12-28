@@ -1,0 +1,168 @@
+<!DOCTYPE  html>
+
+<head>
+    <title>Polls</title>
+    <link rel="stylesheet" href="polls.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OPINE.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="OPINE.html">OPINE!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="categories.html">World Politics</a></li>
+                                <li><a class="dropdown-item" href="categories.html">Sports</a></li>
+                                <li><a class="dropdown-item" href="categories.html">Climate Change</a></li>
+                                <li><a class="dropdown-item" href="categories.html">History & Culture</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="categories.html">See All</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dictums.html">Dictums</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Polls</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Leave Page?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    You're in the same page. Do you want to reload?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Nope</button>
+                    <a class="btn btn-outline-primary" href="polls.html" role="button">Hmmm...I guess</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h4>
+            POLLS:
+            <small class="text-muted">You Decide!!</small>
+        </h4>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Polls</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="row py-4 px-2 mx-5">
+        <div class="col px-3">
+            <div class="h-100 p-5 text-white bg-dark box" style="background-image: url(https://1.bp.blogspot.com/-lHwYdiD0HJc/UOvrw8PRVdI/AAAAAAAABRA/cDmZN7ALdvs/s1600/lionel+messi+polka+dot+tuxedo2.jpg)">
+                <h2>Does Messi deserve the 2021 Balon d'Or?</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <div class=" progress ">
+                    <div class="progress-bar " role="progressbar " style="width: 58%; " aria-valuenow="58 " aria-valuemin="0 " aria-valuemax="100 ">58%</div>
+                </div>
+                <button class="btn btn-outline-light " href="#" type="button ">View Poll</button>
+            </div>
+        </div>
+        <div class="col px-3 ">
+            <div class="h-100 p-5 text-white bg-dark box" style="background-image: url(http://a.fssta.com/content/dam/fsdigital/fscom/NBA/images/2016/02/05/020516-NBA-Curry-and-Bryant-PI-CH.vresize.1200.675.high.33.jpg)">
+                <h2>Steph or Kobe?</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " style="width: 25%; " aria-valuenow="25 " aria-valuemin="0 " aria-valuemax="100 ">25%</div>
+                </div>
+                <button class="btn btn-outline-light " href="#" type="button ">View Poll</button>
+            </div>
+        </div>
+        <div class="col px-3 ">
+            <div class="h-100 p-5 text-white bg-dark box" style="background-image: url(https://i.swncdn.com/media/900w/via/17679-sudan-israel-flags-getty-images-oleksii-lisko.jpg)">
+                <h2>Palestine or Israel?</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " style="width: 74%; " aria-valuenow="74 " aria-valuemin="0 " aria-valuemax="100 ">74%</div>
+                </div>
+                <button class="btn btn-outline-light " href="#" type="button ">View Poll</button>
+            </div>
+        </div>
+    </div>
+    <div class="row py-4 px-2 mx-5">
+        <div class="col px-3">
+            <div class="h-100 p-5 text-white bg-dark box" style="background-image: url(https://i.ytimg.com/vi/9BCzKTRku8k/maxresdefault.jpg)">
+                <h2>Mumbai or Los Angeles?</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <div class=" progress ">
+                    <div class="progress-bar " role="progressbar " style="width: 45%; " aria-valuenow="45 " aria-valuemin="0 " aria-valuemax="100 ">45%</div>
+                </div>
+                <button class="btn btn-outline-light " href="#" type="button ">View Poll</button>
+            </div>
+        </div>
+        <div class="col px-3 ">
+            <div class="h-100 p-5 text-white bg-dark box" style="background-image: url(https://static0.thetravelimages.com/wordpress/wp-content/uploads/2019/08/Summer-vs-Winter_-When-Is-Better-To-Travel_-5-Reasons-For-Each-Featured-Image.jpg)">
+                <h2>The Summer or Winter?</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " style="width: 88%; " aria-valuenow="88 " aria-valuemin="0 " aria-valuemax="100 ">88%</div>
+                </div>
+                <button class="btn btn-outline-light " href="#" type="button ">View Poll</button>
+            </div>
+        </div>
+        <div class="col px-3 ">
+            <div class="h-100 p-5 text-white bg-dark box" style="background-image: url(http://margaretblaine.com/wp-content/uploads/2018/09/religion-science.jpg)">
+                <h2>Religion or Science?</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                <div class="progress ">
+                    <div class="progress-bar " role="progressbar " style="width: 16%; " aria-valuenow="16 " aria-valuemin="0 " aria-valuemax="100 ">16%</div>
+                </div>
+                <button class="btn btn-outline-light " href="#" type="button ">View Poll</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="https://www.facebook.com/" class="nav-link px-2 text-muted">Facebook</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/" class="nav-link px-2 text-muted">Instagram</a></li>
+                <li class="nav-item"><a href="https://twitter.com/?lang=en" class="nav-link px-2 text-muted">Twitter</a></li>
+                <li class="nav-item"><a href="https://www.youtube.com/" class="nav-link px-2 text-muted">Youtube</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2021, Opine Inc</p>
+        </footer>
+    </div>
+</body>
+
+</html>

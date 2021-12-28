@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand {
+    color: rgb(245, 245, 245) !important;
+    font-weight: 900;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(40, 235, 22), rgb(228, 102, 29));
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: rgb(245, 245, 245) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.dropdown-menu {
+    background-image: linear-gradient(to right, rgb(40, 235, 22), rgb(228, 102, 29));
+    padding: 0 !important;
+}
+
+.dropdown-item {
+    color: rgb(245, 245, 245) !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.modal-header {
+    background-image: linear-gradient(to right, rgb(40, 235, 22), rgb(228, 102, 29));
+    color: white;
+}
+
+.box h4 {
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(40, 235, 22), rgb(228, 102, 29));
+}
+
+.box h4 small {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-resize {
+    height: 700px;
+}
+
+.carousel-caption h1 {
+    background-image: linear-gradient(to right, rgb(40, 235, 22, 0.5), rgb(228, 102, 29, 0.5));
+}
+
+.carousel-caption p {
+    background-image: linear-gradient(to right, rgb(40, 235, 22, 0.5), rgb(228, 102, 29, 0.5));
+}
+
+.btn-outline-light {
+    background-image: linear-gradient(to right, rgb(40, 235, 22, 0.5), rgb(228, 102, 29, 0.5));
+}
+
+.breadcrumb li {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Helvetica;
+}
