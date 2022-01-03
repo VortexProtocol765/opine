@@ -94,3 +94,9 @@ body {
     font-weight: 500;
     font-family: Helvetica;
 }
+
+.background-image {
+    background-image: url('https://newevolutiondesigns.com/images/freebies/cool-4k-wallpaper-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

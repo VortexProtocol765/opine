@@ -87,3 +87,9 @@ body {
     font-weight: 500;
     font-family: Helvetica;
 }
+
+.background-image {
+    background-image: url('http://wallup.net/wp-content/uploads/2017/03/28/436393-ultra-wide-photography-nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

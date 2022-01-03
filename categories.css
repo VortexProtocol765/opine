@@ -93,3 +93,9 @@ body {
     font-weight: 500;
     font-family: Helvetica;
 }
+
+.background-image {
+    background-image: url('https://techbeasts.com/wp-content/uploads/2016/12/HOT-Balloon-Trip_Ultra-HD.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

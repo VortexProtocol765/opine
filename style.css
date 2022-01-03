@@ -102,3 +102,9 @@ body {
     font-weight: 500;
     font-family: Helvetica;
 }
+
+.background-image {
+    background-image: url('https://www.baltana.com/file/50342/700x394/16:9/pattern-best-wallpaper-49210_1177854810.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

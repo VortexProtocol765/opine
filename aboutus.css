@@ -92,3 +92,9 @@ body {
     font-weight: 500;
     font-family: Helvetica;
 }
+
+.background-image {
+    background-image: url('https://getwallpapers.com/wallpaper/full/9/8/6/1200087-vertical-4k-ultra-hd-nature-wallpaper-2560x1600-for-samsung-galaxy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
