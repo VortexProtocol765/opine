@@ -86,10 +86,15 @@ body {
     font-size: 20px;
     font-weight: 500;
     font-family: Helvetica;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.534), rgba(192, 192, 192, 0.486));
 }
 
 .background-image {
     background-image: url('http://wallup.net/wp-content/uploads/2017/03/28/436393-ultra-wide-photography-nature.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.form-label {
+    color: white;
 }

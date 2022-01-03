@@ -101,10 +101,11 @@ body {
     font-size: 20px;
     font-weight: 500;
     font-family: Helvetica;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.233), rgba(192, 192, 192, 0.301));
 }
 
 .background-image {
-    background-image: url('https://www.baltana.com/file/50342/700x394/16:9/pattern-best-wallpaper-49210_1177854810.jpg');
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Desktop-Wallpaper-Images.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
