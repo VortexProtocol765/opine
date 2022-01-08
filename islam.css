@@ -135,3 +135,7 @@ article {
 .blog-post {
     color: white;
 }
+
+.navbar-collapse li :hover {
+    background-color: rgba(240, 255, 255, 0.288);
+}

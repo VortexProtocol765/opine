@@ -111,7 +111,14 @@ body {
     background-image: linear-gradient(to right, rgb(175, 6, 119), rgb(223, 194, 68));
 }
 
+.progress {
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .progress-bar {
+    background-color: rgba(0, 0, 0, 0.466);
     background-image: linear-gradient(to right, rgb(175, 6, 119), rgb(223, 194, 68));
 }
 
@@ -138,6 +145,8 @@ body {
 .vdo video {
     width: 100%;
     height: min-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
@@ -152,4 +161,16 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.568);
     width: auto;
+}
+
+.para {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-collapse li :hover {
+    background-color: rgba(240, 255, 255, 0.288);
 }
