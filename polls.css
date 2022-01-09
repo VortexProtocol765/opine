@@ -91,13 +91,18 @@ body {
     background-color: rgba(0, 0, 0, 0.799);
 }
 
+.box {
+    background-image: linear-gradient(to right, rgb(175, 6, 119), rgb(223, 194, 68));
+}
+
 .box h4 {
     color: whitesmoke;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     text-align: center;
-    background-image: linear-gradient(to right, rgb(175, 6, 119), rgb(223, 194, 68));
+    -webkit-animation: 6s linear 1s infinite running move_eye;
+    animation: 6s linear 1s infinite running move_eye;
 }
 
 .box h4 small {
@@ -132,4 +137,31 @@ body {
 
 .navbar-collapse li :hover {
     background-color: rgba(240, 255, 255, 0.288);
+}
+
+@-webkit-keyframes move_eye {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-right: -100%;
+    }
+}
+
+@keyframes move_eye {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-right: -100%;
+    }
+}
+
+#preloader {
+    background: black url(./images/g0R9.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 30%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
