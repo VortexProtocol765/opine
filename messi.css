@@ -333,10 +333,25 @@ body {
     width: 60%;
 }
 
+#commentform h1 {
+    color: white;
+}
+
 #commented {
     width: 60%;
 }
 
 .card {
     height: 100px;
+}
+
+label {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.form-label {
+    background-color: rgba(240, 255, 255, 0.658);
+    size: 40px;
 }

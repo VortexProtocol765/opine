@@ -145,3 +145,15 @@ body {
     position: fixed;
     z-index: 100;
 }
+
+.badge {
+    position: relative;
+    left: 20rem;
+}
+
+article {
+    width: 90%;
+    padding-left: 10rem;
+    font-size: 30px;
+    font-weight: 400;
+}

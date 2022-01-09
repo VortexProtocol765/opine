@@ -131,3 +131,23 @@ iframe {
     position: fixed;
     z-index: 100;
 }
+
+.accordion {
+    width: 70%;
+    position: relative;
+    top: 5rem;
+    left: 18rem;
+}
+
+.accordion-item {
+    background-image: linear-gradient(to right, rgba(12, 8, 71, 0.692), rgba(54, 49, 51, 0.836));
+    width: 100%;
+}
+
+.accordion-collapse {
+    height: 330px;
+}
+
+strong {
+    font-size: 15px;
+}
