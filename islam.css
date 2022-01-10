@@ -187,6 +187,15 @@ article {
     background-color: rgba(240, 255, 255, 0.288);
 }
 
+#preloader {
+    background: black url(./images/g0R9.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 30%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 @-webkit-keyframes move_eye {
     from {
         margin-left: -100%;
