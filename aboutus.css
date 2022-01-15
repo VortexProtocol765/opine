@@ -21,6 +21,7 @@
         .navbar {
             background-image: linear-gradient(to right, rgb(40, 235, 22), rgb(228, 102, 29));
             padding: 0 !important;
+            height: 60px;
         }
         
         .navbar-nav li {
@@ -30,6 +31,7 @@
         .navbar-nav li a {
             color: rgb(245, 245, 245) !important;
             font-weight: 600;
+            font-size: 20px;
             float: right;
             text-align: left;
         }
@@ -153,4 +155,8 @@
         .offcanvas-body p {
             font-size: 30px;
             background-color: rgba(255, 255, 240, 0.733);
+        }
+        
+        footer {
+            background-color: #f0ffffb6;
         }

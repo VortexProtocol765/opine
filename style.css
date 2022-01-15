@@ -21,6 +21,7 @@ body {
 .navbar {
     background-image: linear-gradient(to right, rgb(15, 3, 61), rgb(68, 8, 53));
     padding: 0 !important;
+    height: 60px;
 }
 
 .navbar-nav li {
@@ -30,6 +31,7 @@ body {
 .navbar-nav li a {
     color: rgb(245, 245, 245) !important;
     font-weight: 600;
+    font-size: 20px;
     float: right;
     text-align: left;
 }
@@ -156,4 +158,12 @@ article {
     padding-left: 10rem;
     font-size: 30px;
     font-weight: 400;
+}
+
+footer {
+    background-color: #f0ffffb6;
+}
+
+footer {
+    background-color: #f0ffffb6;
 }

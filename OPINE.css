@@ -21,6 +21,7 @@ body {
 .navbar {
     background-image: linear-gradient(to right, rgb(12, 8, 71), rgb(54, 49, 51));
     padding: 0 !important;
+    height: 60px;
 }
 
 .navbar-nav li {
@@ -30,6 +31,7 @@ body {
 .navbar-nav li a {
     color: rgb(245, 245, 245) !important;
     font-weight: 600;
+    font-size: 20px;
     float: right;
     text-align: left;
 }
@@ -150,4 +152,8 @@ iframe {
 
 strong {
     font-size: 15px;
+}
+
+footer {
+    background-color: #f0ffffb6;
 }

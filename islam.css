@@ -21,6 +21,7 @@ body {
 .navbar {
     background-image: linear-gradient(to right, rgb(11, 49, 6), rgb(122, 115, 11));
     padding: 0 !important;
+    height: 60px;
 }
 
 .navbar-nav li {
@@ -30,6 +31,7 @@ body {
 .navbar-nav li a {
     color: rgb(245, 245, 245) !important;
     font-weight: 600;
+    font-size: 20px;
     float: right;
     text-align: left;
 }
@@ -242,4 +244,8 @@ label {
 .form-label {
     background-color: rgba(240, 255, 255, 0.658);
     size: 40px;
+}
+
+footer {
+    background-color: #f0ffffb6;
 }
